@@ -1,50 +1,98 @@
 \relax 
 \citation{jppNet}
 \citation{deepmatch}
+\citation{slic}
 \@writefile{toc}{\contentsline {section}{\numberline {I}INTRODUCTION}{1}}
 \@writefile{toc}{\contentsline {section}{\numberline {II}LITERATURE REVIEW}{1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-A}}Deep Matching and Deep Flow}{1}}
 \newlabel{DM}{{\unhbox \voidb@x \hbox {II-A}}{1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Computing the Multi-level correlation pyramid\relax }}{1}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:dm_net}{{1}{1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-B}}Joint Body Parsing and Keypoint Estimation Network}{1}}
 \newlabel{jpp}{{\unhbox \voidb@x \hbox {II-B}}{1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces JPP-Net Architecture}}{1}}
-\newlabel{fig:JPP_arch}{{1}{1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-C}}Graph Cut and Cooperative Cut}{1}}
-\newlabel{gc}{{\unhbox \voidb@x \hbox {II-C}}{1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-C}}Simple Linear Iterative Clustering}{1}}
 \citation{CoopCut}
 \citation{unet}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces JPP-Net Architecture\relax }}{2}}
+\newlabel{fig:JPP_arch}{{2}{2}}
+\newlabel{eq:1}{{1}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-D}}Gaussian Mixture Models and Expectation Maxmization}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-E}}Graph Cut and Cooperative Cut}{2}}
+\newlabel{gc}{{\unhbox \voidb@x \hbox {II-E}}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Two Gaussians fitting the data in 1-Dimension\relax }}{2}}
+\newlabel{fig:gmm}{{3}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Graph Cut Segmentation\relax }}{2}}
+\newlabel{fig:graph_cut}{{4}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-F}}U-Net architecture for image segmentation }{2}}
+\newlabel{un}{{\unhbox \voidb@x \hbox {II-F}}{2}}
 \citation{poseAE}
 \citation{sift}
 \citation{orb}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Graph Cut Segmentation}}{2}}
-\newlabel{fig:graph_cut}{{2}{2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-D}}U-Net architecture for image segmentation }{2}}
-\newlabel{un}{{\unhbox \voidb@x \hbox {II-D}}{2}}
-\@writefile{toc}{\contentsline {section}{\numberline {III}METHODS}{2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-A}}Keypoint Tracking}{2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces U-Net architecture}}{2}}
-\newlabel{fig:unet}{{3}{2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-B}}Identify the Headings}{2}}
-\citation{b1}
-\citation{b2}
-\citation{b3}
-\citation{b3}
-\citation{b3}
-\citation{b3}
-\citation{b4}
-\citation{b5}
-\citation{b6}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces U-Net architecture\relax }}{3}}
+\newlabel{fig:unet}{{5}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}METHODS}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-A}}Keypoint Tracking}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-B}}Graph Cut and Cooperative Cut}{3}}
+\newlabel{gcm}{{\unhbox \voidb@x \hbox {III-B}}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces  Keypoint Tracking in subsequent frames.   \textit  {Left:} Reference frame, \textit  {Right:} Query Frame.\relax }}{3}}
+\newlabel{fig:dm}{{6}{3}}
+\newlabel{cari1}{{7a}{3}}
+\newlabel{sub@cari1}{{a}{3}}
+\newlabel{caro1}{{7b}{3}}
+\newlabel{sub@caro1}{{b}{3}}
+\newlabel{caro2}{{7c}{3}}
+\newlabel{sub@caro2}{{c}{3}}
+\newlabel{caro3}{{7d}{3}}
+\newlabel{sub@caro3}{{d}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Reconstructed images and video frames using NITRA with number of measurements and their corresponding PSNR in dB\relax }}{3}}
+\newlabel{NITRAres1}{{7}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-C}}Human Mask Generation Network}{3}}
+\citation{poseAE}
+\citation{coco}
+\citation{lsp}
+\citation{poseAE}
+\citation{pw}
+\citation{dpl1,dpl2}
+\citation{poseAE}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {III-C}1}Pose Representation}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {III-C}2}Head Keypoint estimation}{4}}
+\newlabel{cari1}{{8a}{4}}
+\newlabel{sub@cari1}{{a}{4}}
+\newlabel{caro1}{{8b}{4}}
+\newlabel{sub@caro1}{{b}{4}}
+\newlabel{caro2}{{8c}{4}}
+\newlabel{sub@caro2}{{c}{4}}
+\newlabel{caro3}{{8d}{4}}
+\newlabel{sub@caro3}{{d}{4}}
+\newlabel{caro3}{{8e}{4}}
+\newlabel{sub@caro3}{{e}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Head point estimation\relax }}{4}}
+\newlabel{NITRAres1}{{8}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {III-C}3}The Model}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {III-C}4}Pre-processing}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {III-C}5}Training}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Experiments and Results}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}}Mask Refinement}{4}}
 \bibcite{b1}{1}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Network architecture for the human mask generation network. $C$ represents Convolutional layer and the subscript represents amount of stride. $M$ represents merge layer, $Up$ represents upsampling layer and $Add$ is the addition layer. \relax }}{5}}
+\newlabel{fig:net}{{9}{5}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}1}Tuning using the VOC dataset}{5}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}2}Fully Connected Conditional Random Fields}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces  Keypoint Tracking in subsequent frames.   \textit  {Left:} Reference frame, \textit  {Right:} Query Frame.\relax }}{5}}
+\newlabel{fig:dm}{{10}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}Results}{5}}
 \bibcite{b2}{2}
 \bibcite{b3}{3}
 \bibcite{b4}{4}
 \bibcite{b5}{5}
 \bibcite{b6}{6}
 \bibcite{b7}{7}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-C}}Figures and Tables}{3}}
-\@writefile{toc}{\contentsline {paragraph}{\numberline {\unhbox \voidb@x \hbox {III-C}0a}Positioning Figures and Tables}{3}}
-\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Table Type Styles}}{3}}
-\newlabel{tab1}{{I}{3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Example of a figure caption.}}{3}}
-\newlabel{fig}{{4}{3}}
-\@writefile{toc}{\contentsline {section}{References}{3}}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Table Type Styles\relax }}{6}}
+\newlabel{tab1}{{I}{6}}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Table Type Styles\relax }}{6}}
+\newlabel{tab1}{{II}{6}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}Conclusion}{6}}
+\@writefile{toc}{\contentsline {section}{References}{6}}
+\@writefile{toc}{\contentsline {section}{Appendix\nobreakspace  A}{7}}
+\@writefile{toc}{\contentsline {section}{Appendix\nobreakspace  B}{8}}

@@ -1,0 +1,39 @@
+\documentclass[demo]{article} % remove 'demo' option in real document
+\usepackage{graphicx,subcaption}
+\begin{document}
+\begin{figure}[!t]
+\centering
+\begin{subfigure}[t]{4.5cm}
+\includegraphics[width=\linewidth, height=\linewidth]{NITRA_pep_inp} 
+\caption{Input peppers image}
+\label{cari1}
+\end{subfigure}
+\qquad % some horizontal space
+\begin{subfigure}[t]{4.5cm}
+\includegraphics[width=\linewidth, height=\linewidth]{NITRA_pep_out_20}
+\caption{Reconstructed Peppers Image, M=20, PSNR = 30.9370 dB} 
+\label{caro1}
+\end{subfigure}
+
+\vspace{\baselineskip}
+
+\begin{subfigure}[t]{4.5cm}
+\includegraphics[width=\linewidth, height=\linewidth]{NITRA_pep_inp}
+\caption{Input frame (Akiyo series)}
+\label{aki1}
+\end{subfigure} 
+\qquad % some horizontal space
+\begin{subfigure}[t]{4.5cm}
+\includegraphics[width=\linewidth, height=\linewidth]{NITRA_pep_out_20}
+\caption{Reconstructed frame (Akiyo series), M = 20, PSNR = 34.7404 dB} 
+\label{akio2}
+\end{subfigure}
+
+% caption for overall figure env.:
+\caption{Reconstructed images and video frames using NITRA with 
+number of measurements and their corresponding PSNR in dB}
+\label{NITRAres1} 
+\end{figure}
+
+A cross-reference to figure \ref{akio2}.
+\end{document}

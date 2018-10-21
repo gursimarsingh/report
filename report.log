@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.17)  17 OCT 2018 03:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.20)  21 OCT 2018 18:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -331,41 +331,120 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
-) (./report.aux)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen137
+\captionmargin@=\dimen138
+\captionwidth=\dimen139
+\caption@tempdima=\dimen140
+\caption@indent=\dimen141
+\caption@parindent=\dimen142
+\caption@hangindent=\dimen143
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEta
+blestring \footnotesize \bgroup \par \centering \@IEEEtabletopskipstrut {\norma
+lfont \footnotesize #1}\\{\normalfont \footnotesize \scshape #2}\par \addvspace
+ {0.5\baselineskip }\egroup \@IEEEtablecaptionsepspace \else \@IEEEfigurecaptio
+nsepspace \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}\nobreakspac
+e \nobreakspace #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\nor
+malfont \footnotesize {#1.}\nobreakspace \nobreakspace }\parbox [t]{\hsize }{\n
+ormalfont \footnotesize \noindent \unhbox \@tempboxa #2}\else \ifCLASSOPTIONcon
+ference \hbox to\hsize {\normalfont \footnotesize \hfil \box \@tempboxa \hfil }
+\else \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \hfil }\fi \fi 
+\fi .
+\c@ContinuedFloat=\count111
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
+\c@subfigure=\count112
+\c@subtable=\count113
+)
+(./report.aux
+
+LaTeX Warning: Label `cari1' multiply defined.
+
+
+LaTeX Warning: Label `sub@cari1' multiply defined.
+
+
+LaTeX Warning: Label `caro1' multiply defined.
+
+
+LaTeX Warning: Label `sub@caro1' multiply defined.
+
+
+LaTeX Warning: Label `caro2' multiply defined.
+
+
+LaTeX Warning: Label `sub@caro2' multiply defined.
+
+
+LaTeX Warning: Label `caro3' multiply defined.
+
+
+LaTeX Warning: Label `sub@caro3' multiply defined.
+
+
+LaTeX Warning: Label `caro3' multiply defined.
+
+
+LaTeX Warning: Label `sub@caro3' multiply defined.
+
+
+LaTeX Warning: Label `NITRAres1' multiply defined.
+
+
+LaTeX Warning: Label `fig:dm' multiply defined.
+
+
+LaTeX Warning: Label `tab1' multiply defined.
+
+)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 12.
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 15.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    ... okay on input line 15.
 
 -- Lines per column: 56 (exact).
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count111
-\scratchdimen=\dimen137
+\scratchcounter=\count114
+\scratchdimen=\dimen144
 \scratchbox=\box30
-\nofMPsegments=\count112
-\nofMParguments=\count113
+\nofMPsegments=\count115
+\nofMParguments=\count116
 \everyMPshowfont=\toks21
-\MPscratchCnt=\count114
-\MPscratchDim=\dimen138
-\MPnumerator=\count115
-\makeMPintoPDFobject=\count116
+\MPscratchCnt=\count117
+\MPscratchDim=\dimen145
+\MPnumerator=\count118
+\makeMPintoPDFobject=\count119
 \everyMPtoPDFconversion=\toks22
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -415,110 +494,237 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for U+msa on input line 34.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for U+msa on input line 37.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 34.
+LaTeX Font Info:    Try loading font information for U+msb on input line 37.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-LaTeX Warning: Citation `jppNet' on page 1 undefined on input line 39.
+LaTeX Warning: Citation `jppNet' on page 1 undefined on input line 42.
 
 
-LaTeX Warning: Citation `deepmatch' on page 1 undefined on input line 43.
+LaTeX Warning: Citation `deepmatch' on page 1 undefined on input line 46.
 
-<jpp_net.jpg, id=1, 837.1275pt x 449.42906pt>
+<dm_net.png, id=1, 1721.43124pt x 552.0625pt>
+File: dm_net.png Graphic file (type png)
+ <use dm_net.png>
+Package pdftex.def Info: dm_net.png used on input line 50.
+(pdftex.def)             Requested size: 252.0pt x 80.80936pt.
+
+<jpp_net.jpg, id=2, 837.1275pt x 449.42906pt>
 File: jpp_net.jpg Graphic file (type jpg)
  <use jpp_net.jpg>
-Package pdftex.def Info: jpp_net.jpg used on input line 56.
+Package pdftex.def Info: jpp_net.jpg used on input line 64.
 (pdftex.def)             Requested size: 252.0pt x 135.28922pt.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./jpp_net.jpg>]
+LaTeX Warning: Citation `slic' on page 1 undefined on input line 69.
 
-LaTeX Warning: Citation `CoopCut' on page 2 undefined on input line 64.
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+ <./dm_net.png>]
+Underfull \hbox (badness 5681) in paragraph at lines 69--71
+\OT1/ptm/m/n/10 Here, x,y are the spa-tial co-or-di-nates of the pix-els,
+ []
+
+
+LaTeX Warning: Reference `fig:slic' on page 2 undefined on input line 72.
+
+<gmm.png, id=12, 505.89pt x 433.62pt>
+File: gmm.png Graphic file (type png)
+ <use gmm.png>
+Package pdftex.def Info: gmm.png used on input line 78.
+(pdftex.def)             Requested size: 226.79846pt x 194.39938pt.
+
+
+LaTeX Warning: Citation `CoopCut' on page 2 undefined on input line 87.
 
 Missing character: There is no Î in font ptmr7t!
 Missing character: There is no ± in font ptmr7t!
-<graph_cut.png, id=11, 552.0625pt x 441.65pt>
+<graph_cut.png, id=14, 552.0625pt x 441.65pt>
 File: graph_cut.png Graphic file (type png)
  <use graph_cut.png>
-Package pdftex.def Info: graph_cut.png used on input line 66.
-(pdftex.def)             Requested size: 252.0pt x 201.60474pt.
+Package pdftex.def Info: graph_cut.png used on input line 89.
+(pdftex.def)             Requested size: 226.79846pt x 181.44157pt.
 
 
-LaTeX Warning: Citation `unet' on page 2 undefined on input line 71.
+LaTeX Warning: Citation `unet' on page 2 undefined on input line 96.
 
 
-Underfull \hbox (badness 5403) in paragraph at lines 71--72
+Underfull \hbox (badness 5403) in paragraph at lines 96--97
 []\OT1/ptm/m/n/10 U-Net was orig-i-nally used in [\OT1/ptm/b/n/10 ?\OT1/ptm/m/n
 /10 ] .For biomed-i-cal
  []
 
 
-Underfull \hbox (badness 3536) in paragraph at lines 71--72
+Underfull \hbox (badness 3536) in paragraph at lines 96--97
 \OT1/ptm/m/n/10 im-age seg-men-ta-tion. It is an encoder-decoder net-work
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 71--72
+Underfull \hbox (badness 1831) in paragraph at lines 96--97
 \OT1/ptm/m/n/10 and con-cate-nated in the de-coder. Af-ter reg-u-lar in-ter-val
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
-<U-net.png, id=12, 746.79pt x 485.815pt>
+[2 <./jpp_net.jpg> <./gmm.png> <./graph_cut.png>]
+<U-net.png, id=24, 746.79pt x 485.815pt>
 File: U-net.png Graphic file (type png)
  <use U-net.png>
-Package pdftex.def Info: U-net.png used on input line 74.
+Package pdftex.def Info: U-net.png used on input line 99.
 (pdftex.def)             Requested size: 252.0pt x 163.93695pt.
 
 
-LaTeX Warning: Citation `poseAE' on page 2 undefined on input line 83.
+LaTeX Warning: Citation `poseAE' on page 3 undefined on input line 108.
 
 
-LaTeX Warning: Citation `sift' on page 2 undefined on input line 85.
+LaTeX Warning: Citation `sift' on page 3 undefined on input line 110.
 
 
-LaTeX Warning: Citation `orb' on page 2 undefined on input line 85.
+LaTeX Warning: Citation `orb' on page 3 undefined on input line 110.
 
-[2 <./graph_cut.png> <./U-net.png>]
-
-LaTeX Warning: File `fig1.png' not found on input line 134.
-
-
-! Package pdftex.def Error: File `fig1.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.134 \centerline{\includegraphics{fig1.png}}
-                                             
-? 
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 134.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 145.
+<dm1.jpg, id=25, 501.875pt x 401.5pt>
+File: dm1.jpg Graphic file (type jpg)
+ <use dm1.jpg>
+Package pdftex.def Info: dm1.jpg used on input line 115.
+(pdftex.def)             Requested size: 226.79846pt x 181.43912pt.
 
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 145.
+LaTeX Warning: Reference `slic' on page 3 undefined on input line 122.
 
+File: dm1.jpg Graphic file (type jpg)
+<use dm1.jpg>
+Package pdftex.def Info: dm1.jpg used on input line 127.
+(pdftex.def)             Requested size: 56.89883pt x 68.28471pt.
+File: dm1.jpg Graphic file (type jpg)
+ <use dm1.jpg>
+Package pdftex.def Info: dm1.jpg used on input line 133.
+(pdftex.def)             Requested size: 56.89883pt x 68.28471pt.
+File: dm1.jpg Graphic file (type jpg)
+ <use dm1.jpg>
+Package pdftex.def Info: dm1.jpg used on input line 139.
+(pdftex.def)             Requested size: 56.89883pt x 68.28471pt.
+File: dm1.jpg Graphic file (type jpg)
+ <use dm1.jpg>
+Package pdftex.def Info: dm1.jpg used on input line 145.
+(pdftex.def)             Requested size: 56.89883pt x 68.28471pt.
+
+
+LaTeX Warning: Reference `posew' on page 3 undefined on input line 155.
+
+[3 <./U-net.png> <./dm1.jpg>]
+
+LaTeX Warning: Citation `poseAE' on page 4 undefined on input line 157.
+
+
+LaTeX Warning: Citation `coco' on page 4 undefined on input line 157.
+
+
+LaTeX Warning: Citation `lsp' on page 4 undefined on input line 157.
+
+
+LaTeX Warning: Citation `poseAE' on page 4 undefined on input line 161.
+
+
+LaTeX Warning: Reference `coco_l' on page 4 undefined on input line 161.
+
+
+LaTeX Warning: Reference `head' on page 4 undefined on input line 161.
+
+File: dm1.jpg Graphic file (type jpg)
+<use dm1.jpg>
+Package pdftex.def Info: dm1.jpg used on input line 165.
+(pdftex.def)             Requested size: 45.51906pt x 45.51906pt.
+File: dm1.jpg Graphic file (type jpg)
+ <use dm1.jpg>
+Package pdftex.def Info: dm1.jpg used on input line 171.
+(pdftex.def)             Requested size: 45.51906pt x 45.51906pt.
+File: dm1.jpg Graphic file (type jpg)
+ <use dm1.jpg>
+Package pdftex.def Info: dm1.jpg used on input line 177.
+(pdftex.def)             Requested size: 45.51906pt x 45.51906pt.
+File: dm1.jpg Graphic file (type jpg)
+ <use dm1.jpg>
+Package pdftex.def Info: dm1.jpg used on input line 183.
+(pdftex.def)             Requested size: 45.51906pt x 45.51906pt.
+File: dm1.jpg Graphic file (type jpg)
+ <use dm1.jpg>
+Package pdftex.def Info: dm1.jpg used on input line 188.
+(pdftex.def)             Requested size: 45.51906pt x 45.51906pt.
+
+<network.png, id=29, 752.5716pt x 247.6452pt>
+File: network.png Graphic file (type png)
+ <use network.png>
+Package pdftex.def Info: network.png used on input line 198.
+(pdftex.def)             Requested size: 516.0pt x 169.79842pt.
+
+
+LaTeX Warning: Citation `pw' on page 4 undefined on input line 202.
+
+
+LaTeX Warning: Reference `atr' on page 4 undefined on input line 214.
+
+
+LaTeX Warning: Reference `CRF' on page 4 undefined on input line 214.
+
+
+LaTeX Warning: Citation `dpl1' on page 4 undefined on input line 214.
+
+
+LaTeX Warning: Citation `dpl2' on page 4 undefined on input line 214.
+
+
+LaTeX Warning: Reference `atr-A' on page 4 undefined on input line 215.
+
+
+LaTeX Warning: Citation `poseAE' on page 4 undefined on input line 218.
+
+
+LaTeX Warning: Reference `14_label' on page 4 undefined on input line 218.
+
+
+LaTeX Warning: Reference `fig:re1' on page 4 undefined on input line 218.
+
+[4]
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+File: dm1.jpg Graphic file (type jpg)
+ <use dm1.jpg>
+Package pdftex.def Info: dm1.jpg used on input line 227.
+(pdftex.def)             Requested size: 226.79846pt x 181.43912pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `tab_final_results' on page 5 undefined on input line 
+233.
+
+
+LaTeX Warning: Reference `tab_comp' on page 5 undefined on input line 235.
+
+[5 <./network.png>] [6
+
+] [7
+
+]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -530,31 +736,40 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3] (./report.aux)
+[8] (./report.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 4472 strings out of 493029
- 64448 string characters out of 6136233
- 133872 words of memory out of 5000000
- 7930 multiletter control sequences out of 15000+600000
- 44433 words of font info for 90 fonts, out of 8000000 for 9000
+ 5594 strings out of 493029
+ 84330 string characters out of 6136233
+ 157867 words of memory out of 5000000
+ 9044 multiletter control sequences out of 15000+600000
+ 45953 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,35p,983b,281s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,14n,39p,1510b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
-s/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (3 pages, 304652 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/times/utmri8a.pfb>
+Output written on report.pdf (8 pages, 955837 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 98 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
